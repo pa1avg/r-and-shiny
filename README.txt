@@ -1,0 +1,6 @@
+In this project, we created a shiny app to predict the species of the flower based on different properties.
+
+The famous iris dataset is used in this project to explore and solve the above problem statement using neural networks in R, where the target has classes like setosa, versicolor, and virginica, which are predicted based on different types of features like length and width of the sepal and petal. The activation function, species, threshold, and number of nodes in the layer are selected on the shiny app by the user based on which the prediction is made.
+
+The neural network is trained where all the 3 factors are used at once to train the model and individual factors are used to train the model for accurate redictions.Initially, when the user provides the necessary inputs, the shiny app collects the information and pass it on to the server and on the backend the 
+developed R script use the parameters to predict the species. Once the processing is done, the server passes back the output and the necessary plots like neural network graph and a heat map plotted between the Actual and Predicted is displayed for user reference.
